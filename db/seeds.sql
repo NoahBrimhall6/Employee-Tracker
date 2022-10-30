@@ -1,4 +1,4 @@
-INSERT INTO departments (department, id)
+INSERT INTO departments (name, id)
 VALUES ('Engineering', 001),
        ('Finance',002),
        ('Manufacturing', 003),
@@ -15,12 +15,15 @@ VALUES ('Chocolate Engineer', 150000, 001, 001),
        ('Marketing Analyst', 100000, 004, 008);
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id, id)
-VALUES ('Lisa', 'Simpson', 006, 002, 001),
-       ('William', 'Wonka', 004, NULL, 002),
-       ('John', 'Smith', 002, 004, 003),
-       ('Jane', 'Doe', 001, 002, 004),
+VALUES ('William', 'Wonka', 004, NULL, 002),
+       ('Lisa', 'Simpson', 006, 002, 001),
        ('Mclovin', NULL, 007, 001, 005),
        ('Noah', 'Brimhall', 008, 001, 006),
+       ('Jane', 'Doe', 001, 002, 004),
+       ('John', 'Smith', 002, 004, 003),
        ('Todd', 'Jones', 005, 002, 007),
        ('Oscar', 'Martinez', 003, 002, 008);
+       
+       
+
        

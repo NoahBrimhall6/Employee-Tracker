@@ -5,12 +5,12 @@ USE employees_db;
 
 CREATE TABLE departments(
   id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(30),
+  name VARCHAR(30)
 );
 
 CREATE TABLE roles(
   id INT AUTO_INCREMENT PRIMARY KEY,
-  title VARCHAR(30),
+  title VARCHAR(50),
   salary DECIMAL,
   department_id INT,
   FOREIGN KEY (department_id)
@@ -29,5 +29,6 @@ CREATE TABLE employees(
   ON DELETE SET NULL,
   FOREIGN KEY (manager_id)
   REFERENCES employees(id)
-  ON DELETE SET NULL
 );
+
+SOURCE db/seeds.sql;
