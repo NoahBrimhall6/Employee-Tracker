@@ -20,7 +20,7 @@
   Navigate to the root directory and type 'node index.js' to start the application.  Inquirer will prompt you for the rest.
   
   ## Usage
-  
+  [Example Video](https://drive.google.com/file/d/1X1MGBD2wn5NDkUkg9_TyFm5tDEpfFeHw/view)
   
   
   <add screenshots here>
